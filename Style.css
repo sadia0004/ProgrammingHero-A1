@@ -164,3 +164,133 @@ nav{
   height: 364px;
   margin: 20px 150px 70px 150px ;
 }
+
+/*contact section*/
+.contact-section {
+    margin:0 180px 56px 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 1140;
+    height: 600px;
+    padding: 30px;
+    gap: 50px;
+
+}
+
+.contact-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    padding-right: 20px;
+}
+
+.contact-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #222222;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.contact-form-container {
+    flex: 1;
+    min-width: 350px;
+    max-width: 450px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444444;
+    margin-bottom: 8px;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333333;
+    background-color: #FDFDFD;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.submit-button {
+    width: 100%;
+    padding: 15px 25px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+   background-color: blue;
+}
+
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/*footer*/
+
+.f-logo{
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    color:#4E47FF;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.footer-description {
+    font-size: 16px;
+    color: #666666;
+    max-width: 700px;
+    margin: 0 auto 35px auto;
+    line-height: 1.6;
+}
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.footer-nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    transition: color 0.3s ease;
+}
+.footer-nav li a:hover {
+    color: #4E47FF;
+}
+
+
+
+
+
