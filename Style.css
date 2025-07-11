@@ -1,0 +1,50 @@
+.header{
+    background-image: url(/images/Hero-bg.png);
+    width: 1440px;
+    height: 698px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+      margin:0 140px 0px 160px ;
+    padding: 50px;
+    
+}
+
+.logo{
+    color:#4E47FF;
+    font-weight: 800;
+    font-family:sans-serif;
+
+
+}
+
+.btn{
+    background-color: #4E47FF ;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/*Bannar*/
+
+.bannar{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    width: 905px;
+    height: 237px;
+    margin:0 267px;
+    align-items: center;
+     
+    
+}
+.bannar_content{
+  text-align: center;
+}
+
+
