@@ -145,7 +145,7 @@ nav{
 .reviewer-name {
     font-size: 16px;
     font-weight: 500; 
-    color: #333333; 
+    color: #454545; 
     margin: 0; 
 }
 
@@ -201,9 +201,8 @@ nav{
 }
 
 .contact-form-container {
-    flex: 1;
-    min-width: 350px;
-    max-width: 450px;
+    width: 497px;
+    height: 490px;
     background-color: #ffffff;
     border-radius: 8px;
     padding: 30px;
