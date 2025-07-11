@@ -75,6 +75,7 @@ nav{
     height: 338px;
 }
 
+/*User Info section*/
 .user-info{
    margin:116px 159px 116px 140px;
    background-color: #ebeafe;
@@ -94,4 +95,72 @@ nav{
     color:  #4E47FF;
 }
 
+.user_say_section{
+     margin:116px 159px 116px 140px;
+     width: 1140px;
+     height: 342px;
 
+}
+.user_opinion{
+    margin-top: 50px;
+    display: flex;
+    gap:25px;
+    
+}
+.opinion_details{
+   
+    display: flex;
+    flex-direction: column;
+    width: 366px;
+    height: 243px;
+    padding: 30px;
+    gap:5px;
+    box-shadow: 1px 1px 1px 1px rgb(240, 241, 243);
+    background-color: #F2EDED;
+    border-radius: 24px;
+
+}
+.title_part{
+    width: 318px;
+    height:81px;
+}
+.reviewer-info {
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.reviewer-avatar {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    margin-right: 15px; 
+}
+
+.reviewer-name {
+    font-size: 16px;
+    font-weight: 500; 
+    color: #333333; 
+    margin: 0; 
+}
+
+.reviewer-date {
+    font-size: 14px;
+    color: #888888; 
+    margin: 0; 
+}
+
+.focus_section{
+  margin:140px 159px 116px 140px;
+  width: 1140px;
+  height: 696px;
+  text-align:center;
+  padding: 20px;
+
+}
+.wc-bg{
+  border-radius: 24px;
+  width: 840px;
+  height: 364px;
+  margin: 20px 150px 70px 150px ;
+}
