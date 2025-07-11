@@ -8,7 +8,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-      margin:0 140px 0px 160px ;
+    margin:0px 140px 0px 160px ;
     padding: 50px;
     
 }
@@ -30,6 +30,10 @@ nav{
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: orange;
+}
+
 /*Bannar*/
 
 .bannar{
@@ -40,11 +44,34 @@ nav{
     height: 237px;
     margin:0 267px;
     align-items: center;
+    padding: 80px;
      
     
 }
+
+
 .bannar_content{
   text-align: center;
+  
+}
+
+/*section*/
+
+.web_flow{
+    margin:116px 159px 116px 140px;
+    display: flex;
+    justify-content:space-between ;
+    gap:200px;
+}
+
+.cmn_paragraph_style{
+    color: #252432;
+}
+
+.wc-mini_img{
+    border-radius: 48px;
+    width: 403px;
+    height: 338px;
 }
 
 
