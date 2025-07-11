@@ -1,3 +1,5 @@
+/*Heder section*/
+
 .header{
     background-image: url(/images/Hero-bg.png);
     width: 1440px;
@@ -57,7 +59,9 @@ nav{
   
 }
 
-/*section*/
+/*----sections part-----*/
+
+/*Web flow sections*/
 
 .web_flow{
     margin:116px 159px 116px 140px;
@@ -228,8 +232,7 @@ nav{
     font-size: 16px;
     color: #333333;
     background-color: #FDFDFD;
-    box-sizing: border-box;
-    outline: none;
+   
 }
 
 
@@ -241,7 +244,7 @@ nav{
     border: none;
     border-radius: 6px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
 }
 
