@@ -1,7 +1,7 @@
 /*Heder section*/
 
 .header{
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(./images/Hero-bg.png);
     width: 1440px;
     height: 698px;
 
